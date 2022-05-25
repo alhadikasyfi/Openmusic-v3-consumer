@@ -1,0 +1,23 @@
+{
+  "name": "openmusic-consumer",
+  "version": "1.0.0",
+  "description": "OpenMusic API Consumer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/consumer.js"
+  },
+  "keywords": [],
+  "author": "alhadi kasyfi",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "dotenv": "^16.0.0",
+    "nodemailer": "^6.7.5",
+    "pg": "^8.7.3"
+  }
+}
